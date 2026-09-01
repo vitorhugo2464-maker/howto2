@@ -1,0 +1,99 @@
+/* Reset de configuração de fábrica */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1a1a2e;
+    color: #eaeaea;      
+}
+
+/* Seção 1 — por ID */
+#secao1 {
+    background-color: #e63946; 
+    font-size: 2em;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+/* Seção 2 — Tag Head */
+section:nth-of-type(2) {
+    background-color: #2a9d8f; 
+    color: #fefae0;
+}
+
+/* Seção 3 — Tag Body */
+section:nth-of-type(3) {
+    background-color: #f4a261; 
+    color: #264653;
+}
+
+/* Seção 4 — Tag Main */
+section:nth-of-type(4) {
+    background-color: #264653; 
+    color: #e9c46a;
+}
+
+/* Seção 5 — Tag Section */
+section:nth-of-type(5) {
+    background-color: #8d99ae; 
+    color: #2b2d42;
+}
+
+/* Seção 6 — Tag img */
+section:nth-of-type(6) {
+    background-color: #ff006e; 
+    color: #ffbe0b;
+}
+
+/* Seção 7 — Tag audio */
+section:nth-of-type(7) {
+    background-color: #3a0ca3; 
+    color: #f72585;
+}
+
+/* Seção 8 — Tag video */
+section:nth-of-type(8) {
+    background-color: #4cc9f0; 
+    color: #4361ee;
+}
+
+/* Seção 9 — Tag a */
+section:nth-of-type(9) {
+    background-color: #52b69a; 
+    color: #1b4332;
+}
+
+/* Seção 10 — Tag ul */
+section:nth-of-type(10) {
+    background-color: #ff9f1c; 
+    color: #2e4057;
+}
+
+/* Seção 11 — Tag li */
+section:nth-of-type(11) {
+    background-color: #6d6875; 
+    color: #ffcdb2;
+}
+
+/* Seção 12 (extra) */
+section:nth-of-type(12) {
+    background-color: #0077b6; 
+    color: #caf0f8;
+}
+
+/* Seção 13 (extra) */
+section:nth-of-type(13) {
+    background-color: #ffd6a5;
+    color: #9c6644;
+}
+
+/* Seção 14 (extra) */
+section:nth-of-type(14) {
+    background-color: #7209b7; /* Roxo profundo */
+    color: #fee440;
+}
